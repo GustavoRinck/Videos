@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    gap: 0;
+    padding: 0;
+}
+
+body{
+    background: #050A3C;
+}
+
+#container {
+    width: 1200px;
+    background: #050A3C;
+    margin: 0  auto 0;
+ 
+    color: #fff;
+}
+
+
+header{
+    background: #16218B;
+    padding: 5px;
+    
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 800px;
+   
+}
+
+nav li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    
+   }
+
+   a:link {
+    text-decoration: none;
+    color: #fff;
+   }
+   
+   a:hover {
+    text-decoration: none;
+    color: #fff;
+   }
+
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    color: #fff;
+}
+
+#perfil img{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    box-sizing: 10px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+#imagens-div{
+    width: 200px;
+    padding: 0;
+    
+
+}
+ 
+#destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    gap: 5px;
+    margin-top: 0px;
+    padding: 20px;
+
+}
+
+#destaque img{
+    width: 70%;
+    border-radius: 40px;
+}
+
+
+
+
+
+#trailer{
+    background-color: rgba(6, 172, 255, 0.2);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+    
+}
+
+#imagen-trailer{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    
+}
+
+#imagen-trailer img{
+    width: 200px;
+}
+
+
+
+#abertura{
+    background-color: rgba(6, 172, 255, 0.2);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+}
+
+#imagen-abertura{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    
+}
+
+#imagen-abertura img{
+    width: 200px;
+}
+
+
