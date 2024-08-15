@@ -18,6 +18,8 @@ body{
 }
 
 
+
+
 header{
     background: #16218B;
     padding: 5px;
@@ -33,6 +35,11 @@ nav ul{
    
 }
 
+nav ul a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 nav li{
     list-style-type: none;
 }
